@@ -1,0 +1,98 @@
+ *{
+    margin: 10px;
+    padding:0%;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #000;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    color: black;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url(https://static.globalnoticias.pt/dn/image.jpg?brand=DN&type=generate&guid=733f703e-a1e3-4b54-b1b0-e7945c0e37ae&w=800&h=450&t=20200825151344);
+}
+
+.banner-2 {
+    background-image: url(https://ca-times.brightspotcdn.com/dims4/default/397d7fe/2147483647/strip/true/crop/4928x3280+0+0/resize/1486x989!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Faa%2F11%2Fb91ad5af4f94ae6fa6a2022bcf5a%2F94th-academy-awards-vanity-fair-oscar-party-86506.jpg);
+}
+
+.banner-3 {
+    background-image: url(https://pipocamoderna.com.br/storage/2019/07/jeffrey-wright-to-play-the-watcher-in-marvels-what-if-animated-series.jpg);
+}
+
+@media(max-width: 768px){
+    .cards-content{
+        margin-top: 20%;
+        position: relative;
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        background-position: 50% 50%;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 1s;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0 0 20px 10px;
+        color: #fff;
+        font-size: 17px;
+        font-family: 'Kdam Thmor Pro', sans-serif ;
+    }
+
+}
